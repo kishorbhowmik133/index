@@ -1,0 +1,39 @@
+.container{
+     width: 100%;
+     margin: 0 auto;
+    position: fixed;
+    background-color: blue;
+      }
+body{
+    background-color: aqua;
+    margin: 0;
+    padding: 0;}
+#nav{ background-color:green; overflow: hidden;padding-bottom: 13px;
+}
+
+.right ul li{ float: left; list-style:none;margin-left:13%; }
+.right ul li a,.left a{ text-decoration: none;font-size: 20px;color: white; text-transform: uppercase;
+padding: auto}
+.right ul li a:hover{ background-color:white;color: darkgreen;}
+.left{float: left;margin-top: 0;}
+.house{background: radial-gradient( green, black);
+    overflow: hidden;
+    height: 400px;
+    text-align: center;
+    color: white;
+}
+.house h2 span{color: blue;
+}
+.house h1 span{font-size: 40px;}
+.Features {height: 500px;
+    background-color: aliceblue;
+    overflow: hidden;
+
+color: blue;}
+.Features h1 {text-align: center;
+color: blue;}
+.Development{width: 33%;
+float: left;}
+.Branding{width: 33%;float: left;}
+.Consulting{width: 33%;float: left;}
+.Work{text-align: center;}
